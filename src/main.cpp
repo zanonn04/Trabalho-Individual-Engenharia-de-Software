@@ -1,6 +1,7 @@
-#include <iostream>
+#include <assert.h>
+#include "../src/bib.hpp"
 
 int main() {
-    std::cout << "Projeto funcionando!" << std::endl;
+    assert(fatorial(5) == 120);
     return 0;
 }
