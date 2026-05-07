@@ -1,7 +1,7 @@
-#include <assert.h>
-#include "../src/bib.hpp"
+#include <iostream>
+#include "bib.hpp"
 
 int main() {
-    assert(fatorial(5) == 120);
+    std::cout << "Fatorial de 5: " << fatorial(5) << std::endl;
     return 0;
 }
